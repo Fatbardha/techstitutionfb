@@ -1,0 +1,26 @@
+{
+  "name": "techstitutionfb",
+  "version": "1.0.0",
+  "description": "Learn practical software engineering skills to bring new and exciting platforms to help Kosovo's Institutions go Digital.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fatbardha/techstitutionfb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fatbardha/techstitutionfb/issues"
+  },
+  "homepage": "https://github.com/Fatbardha/techstitutionfb#readme",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "mongodb": "^2.2.33",
+    "nodemon": "^1.13.3"
+  }
+}
