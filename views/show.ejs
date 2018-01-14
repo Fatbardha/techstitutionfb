@@ -2,9 +2,10 @@
 
 <% include ./partials/navbar %>
 <p> <%=title %></p>
-
-<table class="table table-bordered">
-        <thead>
+<div style="overflow-x:auto;">
+  <div class="table-responsive">
+<table class="table">
+        <thead class="thead-inverse">
           <tr>
             <th> Pika kufitare </th>
             <th> Hyrje min minuta</th>
@@ -42,5 +43,6 @@
         </tbody>
       </table>
 
-</table>
+</div>
+</div>
 <% include partials/footer %>
